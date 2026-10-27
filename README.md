@@ -78,3 +78,10 @@ Resultados guardados en results/<archivo>.json y .csv
 ## Problemas comunes
 
 Ver tabla en el informe (sección 7 de la parte práctica).
+
+## Declaración de uso de IA
+
+| Herramienta            | Para qué se usó                                                                                                                               | Partes donde se usó |
+| :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ |
+| **Claude (Anthropic)** | Generar el plan del proyecto, ideas para prompts, ayuda con comandos en terminal y guía de ejecución de la parte práctica de la investigación | prompts/suite.json  |
+| **Gemini (Google)**    | Análisis de costos y comparativa de despliegue: Local vs. API Mistral vs. Nube GPU (AWS)                                                      | docs/costos.md      |
