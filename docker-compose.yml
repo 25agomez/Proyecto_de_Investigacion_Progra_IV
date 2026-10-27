@@ -1,0 +1,22 @@
+services:
+  ollama:
+    image: ollama/ollama:0.40.11
+    container_name: ollama-server
+    ports:
+      - "14434:11434"             # puerto externo distinto, para no chocar con Ollama instalado en tu equipo
+    volumes:
+      - ollama_models:/root/.ollama   # el modelo vive en un volumen, no en la imagen
+
+  inferencia:
+    build: .
+    image: inferencia-mistral:cpu
+    depends_on:
+      - ollama
+    environment:
+      - OLLAMA_HOST=http://ollama:11434   # dentro de la red de Docker se usa el nombre del servicio
+    volumes:
+      - ./results:/app/results
+    profiles: ["run"]   # solo corre cuando lo pides explícitamente
+
+volumes:
+  ollama_models:
