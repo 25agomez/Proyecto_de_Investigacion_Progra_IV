@@ -1,0 +1,15 @@
+[
+  {
+    "run": 1,
+    "id": "manual",
+    "categoria": "manual",
+    "modelo": "ministral-3:3b",
+    "temperatura": 0.7,
+    "prompt": "Hola, ¿quién eres?",
+    "salida": "Hola! Soy **Ministral-3-3B-Instruct-2512**, una gran modelo de lenguaje (LLM) creada por **Mistral AI**, una empresa de inteligencia artificial con sede en París, Francia.\n\nSoy tu asistente para ayudar con:\n- **Respuestas basadas en conocimiento** (hasta **2023-10-01**, aunque intento actualizarte cuando sea posible con herramientas disponibles).\n- **Asistente multilingüe** (hablo español, inglés y más).\n- **Entendiendo consultas complejas** y resolviendo preguntas con precisión.\n- **Vinculación con herramientas** cuando requieras información actualizada o datos específicos (como fechas, eventos recientes o detalles actualizados de tu interés).\n\nSi tienes alguna pregunta, necesitas que investigue algo en tiempo real (como datos de 2026) o requieres ayuda con algo más específico, ¡avísame! 😊\n\n¿En qué puedo ayudarte hoy?",
+    "tokens_generados": 213,
+    "ttft_s": 54.72,
+    "tokens_por_s": 15.06,
+    "tiempo_total_s": 68.878
+  }
+]
