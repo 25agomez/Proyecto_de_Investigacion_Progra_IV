@@ -1,0 +1,3 @@
+config,ttft_s_mean,ttft_s_std,tokens_por_s_mean,tokens_por_s_std
+docker,3.207,1.483,15.355,0.232
+nativo,2.386,0.297,77.964,0.022

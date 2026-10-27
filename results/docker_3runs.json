@@ -1,0 +1,1932 @@
+[
+  {
+    "container": "ollama-server",
+    "cpu_pct": "92.72%",
+    "mem_usage": "1.088GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "98.65%",
+    "mem_usage": "2.422GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "281.66%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.89%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.30%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.93%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.80%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "593.71%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.19%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "593.74%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.19%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.72%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "593.21%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.02%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.43%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "593.93%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.59%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.59%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.13%",
+    "mem_usage": "3.489GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.22%",
+    "mem_usage": "3.489GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "603.00%",
+    "mem_usage": "3.489GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "602.08%",
+    "mem_usage": "3.488GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "602.39%",
+    "mem_usage": "3.489GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.71%",
+    "mem_usage": "3.489GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.41%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.37%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.80%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.33%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.89%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.50%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.91%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.51%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.67%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.42%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.47%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.51%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.41%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.07%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.05%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.01%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.48%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.01%",
+    "mem_usage": "3.491GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.40%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.38%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.36%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.56%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.37%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.86%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.53%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.06%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.97%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.03%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "593.54%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.04%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.07%",
+    "mem_usage": "3.698GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.48%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.45%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.87%",
+    "mem_usage": "3.697GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "554.49%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.69%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.16%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.34%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.11%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.92%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.59%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.64%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.20%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.51%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.13%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.14%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.70%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.11%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.03%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.96%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.49%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.81%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.24%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.48%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.63%",
+    "mem_usage": "3.874GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.69%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.57%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.30%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.87%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.06%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.60%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.62%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.03%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.68%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.13%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.66%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.12%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "593.68%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.02%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.45%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "601.99%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.04%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.18%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "592.73%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.65%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.09%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.40%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.00%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.39%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.90%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.39%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.47%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.00%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.43%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.62%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.98%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.95%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.47%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.90%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.49%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.41%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.96%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.66%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.97%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.03%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.33%",
+    "mem_usage": "3.875GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.03%",
+    "mem_usage": "3.909GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.02%",
+    "mem_usage": "3.909GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.46%",
+    "mem_usage": "3.909GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.50%",
+    "mem_usage": "3.909GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.53%",
+    "mem_usage": "3.909GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.48%",
+    "mem_usage": "3.909GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.47%",
+    "mem_usage": "3.91GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.00%",
+    "mem_usage": "3.91GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.55%",
+    "mem_usage": "3.909GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.57%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "601.53%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.33%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.71%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "602.03%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.46%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.19%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.25%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.07%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.73%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.53%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.06%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.54%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.54%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.22%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.15%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.71%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.15%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.10%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.58%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.66%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.13%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.10%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.11%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.56%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.97%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.67%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.61%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "602.02%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.64%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.39%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.00%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.63%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.18%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.65%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.36%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.60%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.11%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.13%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.09%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.09%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.08%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.99%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.17%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.05%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.66%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "602.49%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "601.54%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.67%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.41%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.37%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.87%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.90%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.87%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.01%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "601.37%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.38%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.87%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.49%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.00%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.87%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.98%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.47%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.01%",
+    "mem_usage": "4.082GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.08%",
+    "mem_usage": "4.106GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.93%",
+    "mem_usage": "4.106GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "602.33%",
+    "mem_usage": "4.106GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.46%",
+    "mem_usage": "4.106GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.51%",
+    "mem_usage": "4.106GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "602.33%",
+    "mem_usage": "4.106GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.48%",
+    "mem_usage": "4.106GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.97%",
+    "mem_usage": "4.106GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.52%",
+    "mem_usage": "4.106GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "601.85%",
+    "mem_usage": "4.106GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "552.52%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.62%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.95%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.00%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.02%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.10%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.54%",
+    "mem_usage": "4.282GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.59%",
+    "mem_usage": "4.282GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.05%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.42%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.61%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "601.00%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.48%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "597.07%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.55%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.64%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.66%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "658.88%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.59%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.73%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.65%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "600.54%",
+    "mem_usage": "4.282GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "598.07%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.68%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "595.52%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "592.28%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "599.39%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "596.20%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "594.72%",
+    "mem_usage": "4.281GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "391.99%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.25%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.01%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "4.28GiB / 13.6GiB"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  },
+  {
+    "container": "ollama-server",
+    "cpu_pct": "0.00%",
+    "mem_usage": "0B / 0B"
+  }
+]

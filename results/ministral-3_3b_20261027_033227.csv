@@ -1,0 +1,390 @@
+run,id,categoria,modelo,temperatura,prompt,salida,tokens_generados,ttft_s,tokens_por_s,tiempo_total_s
+1,gen_01,generacion_texto,ministral-3:3b,0.2,"Redacta un correo formal a mi profesor pidiendo una extensión de 2 días para entregar el proyecto. Ideas: tuve un problema de salud, ya avancé el 80%, entregaré el jueves.","Aquí tienes un borrador formal y respetuoso para tu correo al profesor:
+
+---
+**Asunto:** Solicitud de extensión para entrega del proyecto
+
+Estimado/a [Nombre del profesor],
+
+Espero que este mensaje le encuentre bien.
+
+Por medio del presente, me dirijo a usted para solicitar una extensión de **dos días** para la entrega del proyecto [nombre del proyecto], debido a un imprevisto de salud que me ha afectado recientemente. A pesar de ello, he avanzado en un **80%** del trabajo y estoy en condiciones de entregarlo el **jueves [fecha actual + 3 días]**, como lo acordamos inicialmente.
+
+Agradezco profundamente su comprensión y flexibilidad, y quedo a su disposición para cualquier aclaración o documentación adicional que considere necesaria. Si lo prefiere, puedo ajustar el plazo según sus indicaciones.
+
+Quedo atento/a a su respuesta.
+
+Saludos cordiales,
+[Tu nombre completo]
+[Tu matrícula o número de identificación, si aplica]
+[Asignatura y grupo, si es relevante]
+
+---
+**Notas adicionales:**
+- Si prefieres ser más breve, puedes eliminar la parte *""A pesar de ello, he avanzado en...""* y centrarte en el hecho de que ya avanzaste el 80% y entregas el jueves.
+- Si el profesor suele usar un tono más informal en su correo, puedes adaptar el saludo (ej: *""Hola [Nombre]""* en lugar de *""Estimado/a""*).
+- Si el proyecto tiene un nombre específico o fecha clave, añádelo para mayor claridad.",344,6.663,79.15,11.013
+1,gen_02,generacion_texto,ministral-3:3b,0.2,Escribe un párrafo de 5 líneas que explique qué es un lenguaje de cuarta generación para un estudiante de primer año.,"Un lenguaje de cuarta generación, o **4GL** (*Fourth-Generation Language*), es un tipo de programa diseñado para hacer que la programación sea más sencilla y cercana al lenguaje humano. A diferencia de los lenguajes como el C++ o Java, que requieren escribir muchas líneas de código, los 4GL permiten crear aplicaciones con frases o comandos más intuitivos, casi como si escribieras una carta. Estos lenguajes suelen incluir herramientas gráficas o interfaces fáciles para manejar bases de datos, lo que los hace ideales para desarrollar sistemas rápidos, como bancos en línea o aplicaciones móviles, sin necesidad de ser un experto en programación. Además, suelen integrarse bien con otros sistemas, facilitando su adaptación a entornos tecnológicos actuales. Su objetivo principal es reducir el esfuerzo técnico y aumentar la productividad.",170,2.124,78.6,4.29
+1,res_01,resumen,ministral-3:3b,0.2,"Resume en exactamente 3 viñetas el siguiente texto: ¿Qué son los modelos de lenguaje de gran tamaño? Los modelos de lenguaje de gran tamaño, también conocidos como LLM, son modelos de aprendizaje profundo muy grandes que se preentrenan con grandes cantidades de datos. El transformador subyacente es un conjunto de redes neuronales que consta de un codificador y un decodificador con capacidades de autoatención. El codificador y el decodificador extraen significados de una secuencia de texto y comprenden las relaciones entre las palabras y las frases que contiene. Los transformadores LLM son capaces de entrenarse sin supervisión, aunque una explicación más precisa es que los transformadores llevan a cabo un autoaprendizaje. Es a través de este proceso que los transformadores aprenden a entender la gramática, los idiomas y los conocimientos básicos. A diferencia de las redes neuronales recurrentes (RNN) anteriores que procesaban las entradas de forma secuencial, los transformadores procesan secuencias enteras en paralelo. Esto permite a los científicos de datos utilizar las GPU para entrenar LLM basados en transformadores, lo que reduce significativamente el tiempo de entrenamiento. La arquitectura de las redes neuronales del transformador permite el uso de modelos muy grandes, a menudo con cientos de miles de millones de parámetros. Estos modelos a gran escala pueden incorporar cantidades masivas de datos, a menudo de Internet, pero también de fuentes como Common Crawl, que comprende más de 50 000 millones de páginas web, y Wikipedia, que tiene aproximadamente 57 millones de páginas. ¿Cómo funcionan los modelos de lenguaje de gran tamaño? Un factor clave en el funcionamiento de los LLM es la forma en que representan las palabras. Las formas previas de machine learning utilizaban una tabla numérica para representar cada palabra. Sin embargo, esta forma de representación no podía reconocer las relaciones entre las palabras, como las palabras con significados similares. Esta limitación se superó mediante el uso de vectores multidimensionales, también denominados incrustaciones de palabras, para representar palabras de modo que las palabras con significados contextuales similares u otras relaciones estén cerca unas de otras en el espacio vectorial. Al utilizar incrustaciones de palabras, los transformadores pueden preprocesar el texto como representaciones numéricas a través del codificador y comprender el contexto de palabras y frases con significados similares, así como otras relaciones entre palabras, como las partes del discurso. Entonces es posible que los LLM apliquen este conocimiento del idioma a través del decodificador para producir un resultado único. ¿Por qué son importantes los modelos de lenguaje de gran tamaño? Los modelos de lenguaje de gran tamaño son increíblemente flexibles. Un modelo puede realizar tareas completamente diferentes, como responder preguntas, resumir documentos, traducir idiomas y completar oraciones. Los LLM tienen el potencial de alterar la creación de contenido y la forma en que las personas utilizan los motores de búsqueda y los asistentes virtuales. Si bien no son perfectos, los LLM están demostrando una notable capacidad para hacer predicciones basadas en un número relativamente pequeño de indicaciones o entradas. Los LLM se pueden utilizar en la IA generativa para producir contenido basado en indicaciones de entrada en lenguaje humano. Los LLM son grandes, muy grandes. Pueden considerar miles de millones de parámetros y tienen muchos usos posibles. A continuación, se indican varios ejemplos: El modelo GPT-3 de OpenAI tiene 175 000 millones de parámetros. Su primo, ChatGPT, puede identificar patrones a partir de datos y generar resultados naturales y legibles. Si bien no sabemos el tamaño de Claude 2, puede aceptar entradas con hasta 100 000 tokens en cada indicación, lo que significa que puede funcionar en cientos de páginas de documentación técnica o, incluso, en un libro completo. El modelo Jurassic-1 de AI21 Labs tiene 178 000 millones de parámetros y un vocabulario simbólico de partes de 250 000 palabras y capacidades de conversación similares. El modelo Command de Cohere tiene capacidades similares y puede funcionar en más de 100 idiomas diferentes. El Paradigm de LightOn ofrece modelos básicos con capacidades declaradas que superan las del GPT-3. Todos estos LLM vienen con las API que permiten a los desarrolladores crear aplicaciones únicas de IA generativa. ¿Qué son las aplicaciones de modelos de lenguaje de gran tamaño? Hay muchas aplicaciones prácticas para los LLM. Redacción de textos publicitarios Además de GPT-3 y ChatGPT, Claude, Llama 2, Cohere Command y Jurassic pueden escribir copias originales. AI21 Wordspice sugiere cambios en las oraciones originales para mejorar el estilo y la voz. Respuesta a la base de conocimientos La técnica, que a menudo se denomina procesamiento del lenguaje natural intensivo en conocimiento (KI-NLP), se refiere a los LLM que pueden responder a preguntas específicas a partir de la información en los archivos digitales. Un ejemplo es la capacidad de AI21 Studio Playground para responder a preguntas de conocimiento general. Clasificación de textos Mediante la agrupación en clústeres, los LLM pueden clasificar textos con significados o sentimientos similares. Los usos incluyen medir el sentimiento de los clientes, determinar la relación entre los textos y buscar documentos. Generación de código Los LLM dominan la generación de código a partir de indicaciones en lenguaje natural. Algunos ejemplos incluyen Amazon CodeWhisperer y el Codex de Open AI utilizado en GitHub Copilot, que puede codificar en Python, JavaScript, Ruby y varios otros lenguajes de programación. Otras aplicaciones de codificación incluyen la creación de consultas SQL, la escritura de comandos shell y el diseño de sitios web. Generación de texto Al igual que la generación de código, la generación de texto puede completar oraciones incompletas, escribir la documentación del producto o, como Alexa Create, escribir un cuento infantil corto.","- **Definición y arquitectura**:
+  - Son modelos de **aprendizaje profundo** basados en transformadores que procesan texto en paralelo mediante codificadores y decodificadores.
+  - Se entrenan con **millones de millones de datos** (ej. Common Crawl, Wikipedia) para aprender gramática, idiomas y relaciones contextuales.
+
+- **Funcionamiento clave**:
+  - Representan palabras con **incrustaciones vectoriales** (vectores multidimensionales) para capturar significados similares y relaciones entre palabras.
+  - Utilizan el **autoaprendizaje** para predecir contextos y generar respuestas basadas en patrones aprendidos.
+
+- **Importancia y aplicaciones**:
+  - **Versátiles**: responden preguntas, traducen idiomas, generan contenido (textos, código) y clasifican datos.
+  - Ejemplos destacados: GPT-3 (175B parámetros), Claude 2 (hasta 100K tokens), o herramientas como GitHub Copilot para programación.
+  - Usos prácticos: redacción creativa, gestión de conocimiento, análisis de sentimientos, generación de código y automatización de tareas.",250,2.925,73.59,6.33
+1,res_02,resumen,ministral-3:3b,0.2,"Resume en 3 viñetas el siguiente texto: Vibe Coding vs. Spec-Driven Development En algunos círculos, el programador de vibraciones está de moda ahora mismo. (De hecho, mi compañera Kate Holterhoff declaró que esto era un «verano de la moda caliente).» ¿Por qué el atractivo? Como comenté en una publicación anterior, las herramientas de desarrollo impulsadas por IA son muy adecuadas para ayudar tanto a desarrolladores como a personas adyacentes (como PMs y diseñadores) con prototipos informales y rápidos. En lugar de esperar a ciclos de desarrollo escasos, la gente puede experimentar con ideas con mayor fidelidad que los métodos tradicionales (como documentos de diseño, enmarcado de alambre, pizarra blanca, etc.). La mayoría de las herramientas actuales de codificación Vibe son ideales para la exploración en fases iniciales, pero pueden quedarse cortas a la hora de generar código adecuado para sistemas a escala de producción. En términos generales, estas no son herramientas para apostar tu negocio ni siquiera aplicaciones empresariales. (Al menos no todavía.) Existen preocupaciones legítimas sobre si la codificación de vibración genera más responsabilidades que beneficios. Quizá el código de vibración pueda andamiar el código rápidamente o poner en marcha proyectos pequeños, pero a gran escala tiende a: No construir código de forma eficiente. Si quieres código ordenado, mantenible y reutilizable, probablemente la programación de vibra no sea lo ideal. Sería bastante complicado depurar. Crea problemas de rendimiento. ¿Recuerdas la anécdota sobre la base de datos que se vio afectada por consultas escritas mediante vibe codeing? (Espero que sí, porque no lo encuentro de nuevo; todas mis búsquedas de «impacto en el rendimiento de la base de datos de codificación de vibración» solo están dando el desastre de Replit)select * Tienen comportamientos poco fiables, a veces catastróficamente (véase el desastre de la eliminación de la base de datos Replit) Desplaza los cuellos de botella de la creación de software a las canalizaciones de depuración, pruebas y despliegue. Hay un abismo que cruzar entre prototipos mágicos y sistemas mantenibles y desplegables. El desarrollo basado en especificaciones ha surgido como una posible respuesta a esta brecha. Desarrollo basado en especificaciones 'Spec' en este caso significa especificación, un artefacto que captura los requisitos antes de escribir cualquier código. En lugar de depender exclusivamente de una serie de indicaciones, el usuario amplía el contexto de la IA con un enfoque más estructurado. «Seguro que has estado ahí: prompt, prompt, prompt, y tienes una aplicación funcional. Es divertido y se siente como magia. Pero llevarlo a producción requiere más.» – Nikhil Swaminathan y Deepak Singh. Esto no significa que no haya ningún indicado. Los usuarios siguen interactuando con la IA a través del chat. Vamos a ampliar: una comparación sencilla: El siguiente prompt no es necesariamente cómo sugiero programar vibe o hacer desarrollo basado en especificaciones si quieres usar tus tokens de forma eficiente, sino que intenta ilustrar cómo difieren los enfoques si estuviera construyendo una simple web personal de campo nuevo. Las capturas de pantalla a continuación son de Kiro, un IDE agente de AWS que permite a los usuarios construir usando Vibe Mode o Spec Mode. Codificación de vibraciones Prompt: I want to build a personal website to showcase my work portfolio. I want to import articles I've written via an RSS feed. La IA responde con sugerencias sobre qué pila tecnológica construir, preguntas sobre dónde alojar, y luego empieza a estructurarla. Salta directamente a escribir código. Desarrollo basado en especificaciones: En el desarrollo orientado a especificaciones podría usar exactamente el mismo prompt, pero en lugar de sumergirse en código, el sistema primero crea documentos de markdown centrados en historias de usuario y diseño. (Esta es una captura de pantalla truncada. El sistema en realidad generó 4 requisitos basándose en esta simple petición.) El usuario puede entonces entrar y editar esta reducción de notas. Se pueden añadir, eliminar y modificar requisitos necesarios. Un contexto adicional de lo que se está construyendo se captura no solo en la efímeridad de los prompts, sino en un documento vivo.","Aquí tienes un resumen en **3 viñetas clave** del texto:
+
+- **Vibe Coding (Desarrollo intuitivo por IA)**
+  - Ideal para **prototipos rápidos y exploración inicial** (ej. herramientas como Jupyter, Replit).
+  - **Limitaciones a gran escala**: código poco eficiente, difícil de depurar, problemas de rendimiento (ej. consultas SQL mal optimizadas) y cuellos de botella en despliegue.
+  - No es viable para **sistemas críticos** (empresariales o producción), ya que prioriza velocidad sobre mantenibilidad.
+
+- **Desventajas del enfoque ""vibra""**
+  - Genera **código poco fiable** (ej. fallos en bases de datos como el caso de Replit).
+  - Desplaza el esfuerzo hacia **etapas posteriores** (pruebas, despliegue) en lugar de optimizar el desarrollo.
+  - Existe un **abismo entre prototipos mágicos y sistemas escalables**, requiriendo más trabajo manual.
+
+- **Alternativa: *Spec-Driven Development* (Desarrollo basado en especificaciones)**
+  - Usa **requisitos estructurados** (ej. documentos de Markdown con historias de usuario) para guiar el código.
+  - Permite **editar y ajustar requisitos** antes de escribir código, capturando contexto de forma **permanente** (no efímero como los prompts).
+  - Ejemplo: Un prompt similar al de *vibe coding* genera primero **requisitos detallados** (ej. 4 historias de usuario), facilitando una base sólida para el desarrollo.
+
+---
+*Nota*: El texto destaca que ambos enfoques pueden usarse en conjunto (ej. IA para generar ideas + especificación para estructurar el trabajo).",388,2.77,74.23,8.003
+1,cor_01,correccion_traduccion,ministral-3:3b,0.2,Corrige la ortografía y puntuación: 'ayer fuimos a la playa y los niños jugarón mucho hasta que llego la noche y tubimos que regresar'.,"Aquí está la versión corregida con la ortografía y puntuación adecuadas:
+
+**""Ayer fuimos a la playa, y los niños jugaron mucho hasta que llegó la noche, y tuvimos que regresar.""**
+
+*Cambios realizados:*
+- **""jugarón"" → ""jugaron""** (verbo en pasado, correcto).
+- **""llego"" → ""llegó""** (verbo en pasado, con tilde).
+- **""tubimos"" → ""tuvimos""** (verbo ""tener"" en pasado, con tilde).
+- **Puntuación:** Se añadió una coma después de ""playa"" y se separó con comas las oraciones para mayor claridad.",149,2.186,78.58,4.086
+1,cor_02,correccion_traduccion,ministral-3:3b,0.2,"Traduce al inglés: 'Necesito que me envíes el informe antes del viernes, por favor.'","Here’s your translation:
+
+**""Could you please send me the report before Friday?""**",18,2.135,81.62,2.358
+1,cod_01,codigo,ministral-3:3b,0.2,"Escribe una consulta SQL que devuelva los 3 estudiantes con mayor promedio de la tabla estudiantes(id, nombre, promedio).","Aquí tienes una consulta SQL que devuelve los **3 estudiantes con el mayor promedio** de la tabla `estudiantes`:
+
+```sql
+SELECT id, nombre, promedio
+FROM estudiantes
+ORDER BY promedio DESC
+LIMIT 3;
+```
+
+### Explicación:
+1. **`SELECT id, nombre, promedio`**: Selecciona los campos que necesitas (ID, nombre y promedio).
+2. **`FROM estudiantes`**: Indica la tabla de origen.
+3. **`ORDER BY promedio DESC`**: Ordena los resultados por el promedio en orden **descendente** (de mayor a menor).
+4. **`LIMIT 3`**: Restringe el resultado a los **3 primeros registros** (los de mayor promedio).
+
+Si necesitas incluir más condiciones (como filtrar por algún criterio), puedo ajustar la consulta. ¿Hay algo más que necesites?",182,2.124,78.46,4.447
+1,cod_02,codigo,ministral-3:3b,0.2,Escribe una función en Python llamada es_primo(n) que devuelva True si n es primo y False si no. Solo el código.,"```python
+def es_primo(n):
+    if n <= 1:
+        return False
+    if n == 2:
+        return True
+    if n % 2 == 0:
+        return False
+    for i in range(3, int(n**0.5) + 1, 2):
+        if n % i == 0:
+            return False
+    return True
+```",86,2.13,78.92,3.223
+1,raz_01,razonamiento_veracidad,ministral-3:3b,0.2,"Si 5 máquinas tardan 5 minutos en hacer 5 piezas, ¿cuánto tardan 100 máquinas en hacer 100 piezas? Explica tu razonamiento.","Este problema es un clásico ejemplo de **división de trabajo** y **proporcionalidad**. Vamos a desglosarlo paso a paso para entenderlo correctamente.
+
+---
+
+### **Contexto inicial (5 máquinas y 5 piezas)**
+- **5 máquinas** tardan **5 minutos** en producir **5 piezas**.
+- Esto implica que **cada máquina** produce **1 pieza** en **5 minutos**.
+  - *Razón*: Si 5 máquinas hacen 5 piezas en 5 minutos, entonces cada máquina solo hace 1 pieza (ya que 5 máquinas × 1 pieza = 5 piezas).
+
+---
+
+### **Escenario modificado (100 máquinas y 100 piezas)**
+Ahora, queremos saber cuánto tardan **100 máquinas** en producir **100 piezas**.
+
+#### **Razonamiento paso a paso**:
+1. **Tasa de producción por máquina**:
+   - De la primera parte, sabemos que **1 máquina produce 1 pieza en 5 minutos**.
+   - Por lo tanto, la **tasa de producción por máquina es de 1 pieza por 5 minutos**.
+
+2. **Producción conjunta de 100 máquinas**:
+   - Si cada máquina produce 1 pieza en 5 minutos, entonces **100 máquinas producirán 100 piezas en el mismo tiempo** (5 minutos).
+   - *Explicación*: 100 máquinas × 1 pieza/máquina = 100 piezas en 5 minutos.
+
+3. **Alternativa (pero incorrecta) de intuición**:
+   - Algunos podrían pensar que, al aumentar el número de máquinas y piezas, el tiempo se multiplica o divide. Por ejemplo:
+     - *""Si 5 máquinas hacen 5 piezas en 5 minutos, ¿100 máquinas hacen 100 piezas en 50 minutos?""*
+     - **Error**: Esto ignora que el número",400,2.107,77.9,7.246
+1,raz_02,razonamiento_veracidad,ministral-3:3b,0.2,¿Cuál es la capital de Costa Rica y en qué año se declaró la independencia de Centroamérica de España?,"- **Capital de Costa Rica**: **San José**.
+- **Año de independencia de Centroamérica de España**: **1821** (aunque la independencia de Costa Rica como país independiente se declaró el **29 de septiembre de 1821**, tras su separación de la Federación de Centroamérica).
+
+Si necesitas más detalles sobre algún evento histórico, ¡avísame!",81,2.125,78.84,3.155
+2,gen_01,generacion_texto,ministral-3:3b,0.2,"Redacta un correo formal a mi profesor pidiendo una extensión de 2 días para entregar el proyecto. Ideas: tuve un problema de salud, ya avancé el 80%, entregaré el jueves.","Aquí tienes un borrador formal y respetuoso para tu correo al profesor:
+
+---
+**Asunto:** Solicitud de extensión para entrega del proyecto
+
+Estimado/a [Nombre del profesor],
+
+Espero que este mensaje le encuentre bien.
+
+Me dirijo a usted para solicitar, con todo el respeto, una extensión de **dos días** para la entrega del proyecto de [nombre del curso o asignatura], debido a un imprevisto de salud que me ha impedido avanzar en el plazo establecido.
+
+Agradezco profundamente su comprensión, ya que he avanzado aproximadamente el **80%** del trabajo y me comprometo a entregarlo el **jueves [fecha actual + 3 días, ej. 30 de octubre de 2026]**, cumpliendo con los requisitos originales. Confío en que esta situación no afectará el rigor académico del proyecto.
+
+Quedo a su disposición para cualquier aclaración o ajustar los detalles según lo considere oportuno. Muchas gracias por su atención.
+
+Atentamente,
+[Tu nombre completo]
+[Tu matrícula o número de identificación, si aplica]
+[Correo electrónico o teléfono de contacto]
+
+---
+**Notas adicionales:**
+- Si prefieres ser más breve, puedes eliminar la parte sobre el avance del 80% (solo si el profesor no lo requiere).
+- Si el problema de salud es grave, considera adjuntar un justificante médico (si es posible) para mayor formalidad.",312,2.117,78.27,6.107
+2,gen_02,generacion_texto,ministral-3:3b,0.2,Escribe un párrafo de 5 líneas que explique qué es un lenguaje de cuarta generación para un estudiante de primer año.,"Un lenguaje de cuarta generación (4GL) es un tipo de programa diseñado para ser más fácil de entender y usar que los lenguajes tradicionales, como el C++ o Java. A diferencia de los lenguajes de programación clásicos, que requieren escribir muchas líneas de código para realizar tareas simples, los 4GL permiten crear aplicaciones completas con menos líneas de texto gracias a su sintaxis más intuitiva y herramientas gráficas. Estos lenguajes suelen incluir funciones avanzadas para manejar bases de datos, automatizar procesos o interactuar con sistemas operativos de manera sencilla, lo que los hace ideales para desarrolladores principiantes o para proyectos que necesitan rapidez. Además, muchos 4GL incluyen interfaces visuales que permiten arrastrar y soltar elementos para construir aplicaciones sin necesidad de escribir código manualmente. Su objetivo principal es simplificar el desarrollo de software, haciendo que sea más accesible para quienes no tienen experiencia técnica profunda.",192,2.112,78.52,4.56
+2,res_01,resumen,ministral-3:3b,0.2,"Resume en exactamente 3 viñetas el siguiente texto: ¿Qué son los modelos de lenguaje de gran tamaño? Los modelos de lenguaje de gran tamaño, también conocidos como LLM, son modelos de aprendizaje profundo muy grandes que se preentrenan con grandes cantidades de datos. El transformador subyacente es un conjunto de redes neuronales que consta de un codificador y un decodificador con capacidades de autoatención. El codificador y el decodificador extraen significados de una secuencia de texto y comprenden las relaciones entre las palabras y las frases que contiene. Los transformadores LLM son capaces de entrenarse sin supervisión, aunque una explicación más precisa es que los transformadores llevan a cabo un autoaprendizaje. Es a través de este proceso que los transformadores aprenden a entender la gramática, los idiomas y los conocimientos básicos. A diferencia de las redes neuronales recurrentes (RNN) anteriores que procesaban las entradas de forma secuencial, los transformadores procesan secuencias enteras en paralelo. Esto permite a los científicos de datos utilizar las GPU para entrenar LLM basados en transformadores, lo que reduce significativamente el tiempo de entrenamiento. La arquitectura de las redes neuronales del transformador permite el uso de modelos muy grandes, a menudo con cientos de miles de millones de parámetros. Estos modelos a gran escala pueden incorporar cantidades masivas de datos, a menudo de Internet, pero también de fuentes como Common Crawl, que comprende más de 50 000 millones de páginas web, y Wikipedia, que tiene aproximadamente 57 millones de páginas. ¿Cómo funcionan los modelos de lenguaje de gran tamaño? Un factor clave en el funcionamiento de los LLM es la forma en que representan las palabras. Las formas previas de machine learning utilizaban una tabla numérica para representar cada palabra. Sin embargo, esta forma de representación no podía reconocer las relaciones entre las palabras, como las palabras con significados similares. Esta limitación se superó mediante el uso de vectores multidimensionales, también denominados incrustaciones de palabras, para representar palabras de modo que las palabras con significados contextuales similares u otras relaciones estén cerca unas de otras en el espacio vectorial. Al utilizar incrustaciones de palabras, los transformadores pueden preprocesar el texto como representaciones numéricas a través del codificador y comprender el contexto de palabras y frases con significados similares, así como otras relaciones entre palabras, como las partes del discurso. Entonces es posible que los LLM apliquen este conocimiento del idioma a través del decodificador para producir un resultado único. ¿Por qué son importantes los modelos de lenguaje de gran tamaño? Los modelos de lenguaje de gran tamaño son increíblemente flexibles. Un modelo puede realizar tareas completamente diferentes, como responder preguntas, resumir documentos, traducir idiomas y completar oraciones. Los LLM tienen el potencial de alterar la creación de contenido y la forma en que las personas utilizan los motores de búsqueda y los asistentes virtuales. Si bien no son perfectos, los LLM están demostrando una notable capacidad para hacer predicciones basadas en un número relativamente pequeño de indicaciones o entradas. Los LLM se pueden utilizar en la IA generativa para producir contenido basado en indicaciones de entrada en lenguaje humano. Los LLM son grandes, muy grandes. Pueden considerar miles de millones de parámetros y tienen muchos usos posibles. A continuación, se indican varios ejemplos: El modelo GPT-3 de OpenAI tiene 175 000 millones de parámetros. Su primo, ChatGPT, puede identificar patrones a partir de datos y generar resultados naturales y legibles. Si bien no sabemos el tamaño de Claude 2, puede aceptar entradas con hasta 100 000 tokens en cada indicación, lo que significa que puede funcionar en cientos de páginas de documentación técnica o, incluso, en un libro completo. El modelo Jurassic-1 de AI21 Labs tiene 178 000 millones de parámetros y un vocabulario simbólico de partes de 250 000 palabras y capacidades de conversación similares. El modelo Command de Cohere tiene capacidades similares y puede funcionar en más de 100 idiomas diferentes. El Paradigm de LightOn ofrece modelos básicos con capacidades declaradas que superan las del GPT-3. Todos estos LLM vienen con las API que permiten a los desarrolladores crear aplicaciones únicas de IA generativa. ¿Qué son las aplicaciones de modelos de lenguaje de gran tamaño? Hay muchas aplicaciones prácticas para los LLM. Redacción de textos publicitarios Además de GPT-3 y ChatGPT, Claude, Llama 2, Cohere Command y Jurassic pueden escribir copias originales. AI21 Wordspice sugiere cambios en las oraciones originales para mejorar el estilo y la voz. Respuesta a la base de conocimientos La técnica, que a menudo se denomina procesamiento del lenguaje natural intensivo en conocimiento (KI-NLP), se refiere a los LLM que pueden responder a preguntas específicas a partir de la información en los archivos digitales. Un ejemplo es la capacidad de AI21 Studio Playground para responder a preguntas de conocimiento general. Clasificación de textos Mediante la agrupación en clústeres, los LLM pueden clasificar textos con significados o sentimientos similares. Los usos incluyen medir el sentimiento de los clientes, determinar la relación entre los textos y buscar documentos. Generación de código Los LLM dominan la generación de código a partir de indicaciones en lenguaje natural. Algunos ejemplos incluyen Amazon CodeWhisperer y el Codex de Open AI utilizado en GitHub Copilot, que puede codificar en Python, JavaScript, Ruby y varios otros lenguajes de programación. Otras aplicaciones de codificación incluyen la creación de consultas SQL, la escritura de comandos shell y el diseño de sitios web. Generación de texto Al igual que la generación de código, la generación de texto puede completar oraciones incompletas, escribir la documentación del producto o, como Alexa Create, escribir un cuento infantil corto.","- **Definición y arquitectura**:
+  - Son modelos de **aprendizaje profundo** basados en transformadores con codificador y decodificador que procesan texto en paralelo mediante **autoatención**, permitiendo entender relaciones gramaticales y contextuales.
+
+- **Funcionamiento clave**:
+  - Usan **embeddings (incrustaciones de palabras)** como vectores multidimensionales para representar palabras, facilitando la comprensión de significados similares y relaciones entre ellas mediante codificación y decodificación.
+
+- **Importancia y aplicaciones**:
+  - Son **versátiles y escalables** (ej: GPT-3 con 175M parámetros), con usos como **generación de contenido** (redacción, resúmenes), **respuesta a preguntas** (KI-NLP), **clasificación de textos**, **generación de código** (ej: GitHub Copilot) y **creación de textos creativos** (ej: historias o documentación).",206,2.952,73.88,5.748
+2,res_02,resumen,ministral-3:3b,0.2,"Resume en 3 viñetas el siguiente texto: Vibe Coding vs. Spec-Driven Development En algunos círculos, el programador de vibraciones está de moda ahora mismo. (De hecho, mi compañera Kate Holterhoff declaró que esto era un «verano de la moda caliente).» ¿Por qué el atractivo? Como comenté en una publicación anterior, las herramientas de desarrollo impulsadas por IA son muy adecuadas para ayudar tanto a desarrolladores como a personas adyacentes (como PMs y diseñadores) con prototipos informales y rápidos. En lugar de esperar a ciclos de desarrollo escasos, la gente puede experimentar con ideas con mayor fidelidad que los métodos tradicionales (como documentos de diseño, enmarcado de alambre, pizarra blanca, etc.). La mayoría de las herramientas actuales de codificación Vibe son ideales para la exploración en fases iniciales, pero pueden quedarse cortas a la hora de generar código adecuado para sistemas a escala de producción. En términos generales, estas no son herramientas para apostar tu negocio ni siquiera aplicaciones empresariales. (Al menos no todavía.) Existen preocupaciones legítimas sobre si la codificación de vibración genera más responsabilidades que beneficios. Quizá el código de vibración pueda andamiar el código rápidamente o poner en marcha proyectos pequeños, pero a gran escala tiende a: No construir código de forma eficiente. Si quieres código ordenado, mantenible y reutilizable, probablemente la programación de vibra no sea lo ideal. Sería bastante complicado depurar. Crea problemas de rendimiento. ¿Recuerdas la anécdota sobre la base de datos que se vio afectada por consultas escritas mediante vibe codeing? (Espero que sí, porque no lo encuentro de nuevo; todas mis búsquedas de «impacto en el rendimiento de la base de datos de codificación de vibración» solo están dando el desastre de Replit)select * Tienen comportamientos poco fiables, a veces catastróficamente (véase el desastre de la eliminación de la base de datos Replit) Desplaza los cuellos de botella de la creación de software a las canalizaciones de depuración, pruebas y despliegue. Hay un abismo que cruzar entre prototipos mágicos y sistemas mantenibles y desplegables. El desarrollo basado en especificaciones ha surgido como una posible respuesta a esta brecha. Desarrollo basado en especificaciones 'Spec' en este caso significa especificación, un artefacto que captura los requisitos antes de escribir cualquier código. En lugar de depender exclusivamente de una serie de indicaciones, el usuario amplía el contexto de la IA con un enfoque más estructurado. «Seguro que has estado ahí: prompt, prompt, prompt, y tienes una aplicación funcional. Es divertido y se siente como magia. Pero llevarlo a producción requiere más.» – Nikhil Swaminathan y Deepak Singh. Esto no significa que no haya ningún indicado. Los usuarios siguen interactuando con la IA a través del chat. Vamos a ampliar: una comparación sencilla: El siguiente prompt no es necesariamente cómo sugiero programar vibe o hacer desarrollo basado en especificaciones si quieres usar tus tokens de forma eficiente, sino que intenta ilustrar cómo difieren los enfoques si estuviera construyendo una simple web personal de campo nuevo. Las capturas de pantalla a continuación son de Kiro, un IDE agente de AWS que permite a los usuarios construir usando Vibe Mode o Spec Mode. Codificación de vibraciones Prompt: I want to build a personal website to showcase my work portfolio. I want to import articles I've written via an RSS feed. La IA responde con sugerencias sobre qué pila tecnológica construir, preguntas sobre dónde alojar, y luego empieza a estructurarla. Salta directamente a escribir código. Desarrollo basado en especificaciones: En el desarrollo orientado a especificaciones podría usar exactamente el mismo prompt, pero en lugar de sumergirse en código, el sistema primero crea documentos de markdown centrados en historias de usuario y diseño. (Esta es una captura de pantalla truncada. El sistema en realidad generó 4 requisitos basándose en esta simple petición.) El usuario puede entonces entrar y editar esta reducción de notas. Se pueden añadir, eliminar y modificar requisitos necesarios. Un contexto adicional de lo que se está construyendo se captura no solo en la efímeridad de los prompts, sino en un documento vivo.","Aquí tienes un resumen en **3 viñetas** del texto:
+
+- **Vibe Coding (Desarrollo intuitivo por IA)**
+  - Permite prototipado rápido y exploración creativa en fases iniciales (ej. herramientas como *Replit*).
+  - **Limitaciones clave**: código poco eficiente, difícil de depurar, problemas de rendimiento (ej. consultas SQL mal escritas), y no escalable para producción.
+  - Ideal para proyectos pequeños, pero **no recomendado** para sistemas empresariales o de alto impacto.
+
+- **Desventajas del enfoque ""vibra""**
+  - Genera código **inestable** (ej. fallos de base de datos como el de Replit) y **desplaza el esfuerzo** hacia etapas posteriores (pruebas, despliegue).
+  - Existe un **abismo** entre prototipos mágicos y sistemas mantenibles, requiriendo más trabajo manual para validar resultados.
+
+- **Alternativa: *Spec-Driven Development* (Enfoque estructurado)**
+  - Usa **especificaciones claras** (ej. documentos de *markdown* con historias de usuario) para guiar la IA, evitando la improvisación.
+  - Captura el contexto de forma **duradera** (no efímera como los prompts), permitiendo ajustes y mejoras iterativas.
+  - Ejemplo: Kiro (AWS) permite elegir entre *Vibe Mode* (código directo) o *Spec Mode* (requisitos estructurados), priorizando calidad y escalabilidad.",336,2.194,74.13,6.733
+2,cor_01,correccion_traduccion,ministral-3:3b,0.2,Corrige la ortografía y puntuación: 'ayer fuimos a la playa y los niños jugarón mucho hasta que llego la noche y tubimos que regresar'.,"Aquí está la versión corregida con la ortografía y puntuación adecuadas:
+
+**""Ayer fuimos a la playa, y los niños jugaron mucho hasta que llegó la noche, y tuvimos que regresar.""**
+
+Cambios realizados:
+- **""jugarón""** → **""jugaron""** (verbo en pasado, sin tilde en este contexto).
+- **""llego""** → **""llegó""** (verbo ""llegar"" en pasado).
+- **""tubimos""** → **""tuvimos""** (verbo ""tener"" en pasado).
+- Añadí comas para mejorar la fluidez y puntuación.",133,2.17,78.49,3.867
+2,cor_02,correccion_traduccion,ministral-3:3b,0.2,"Traduce al inglés: 'Necesito que me envíes el informe antes del viernes, por favor.'","Here’s your translation:
+
+**""Please, could you send me the report before Friday?""**",19,2.125,81.96,2.359
+2,cod_01,codigo,ministral-3:3b,0.2,"Escribe una consulta SQL que devuelva los 3 estudiantes con mayor promedio de la tabla estudiantes(id, nombre, promedio).","Aquí tienes una consulta SQL que devuelve los 3 estudiantes con el mayor promedio de la tabla `estudiantes`:
+
+```sql
+SELECT id, nombre, promedio
+FROM estudiantes
+ORDER BY promedio DESC
+LIMIT 3;
+```
+
+### Explicación:
+- `SELECT id, nombre, promedio`: Selecciona los campos `id`, `nombre` y `promedio` de la tabla.
+- `FROM estudiantes`: Indica la tabla origen.
+- `ORDER BY promedio DESC`: Ordena los resultados por el campo `promedio` en orden descendente (de mayor a menor).
+- `LIMIT 3`: Restringe el resultado a los 3 registros más altos.
+
+Si necesitas incluir más detalles o ajustar la consulta, ¡avísame!",158,2.101,78.54,4.116
+2,cod_02,codigo,ministral-3:3b,0.2,Escribe una función en Python llamada es_primo(n) que devuelva True si n es primo y False si no. Solo el código.,"```python
+def es_primo(n):
+    if n <= 1:
+        return False
+    if n == 2:
+        return True
+    if n % 2 == 0:
+        return False
+    for i in range(3, int(n**0.5) + 1, 2):
+        if n % i == 0:
+            return False
+    return True
+```",86,2.109,78.93,3.202
+2,raz_01,razonamiento_veracidad,ministral-3:3b,0.2,"Si 5 máquinas tardan 5 minutos en hacer 5 piezas, ¿cuánto tardan 100 máquinas en hacer 100 piezas? Explica tu razonamiento.","El problema planteado parece ser una variación clásica de la **regla de tres simple** o **problemas de proporción directa**, donde la cantidad de trabajo depende de la cantidad de recursos disponibles.
+
+### **Razonamiento paso a paso:**
+
+1. **Interpretación del problema inicial:**
+   - **5 máquinas** tardan **5 minutos** en producir **5 piezas**.
+   - Esto implica que, por cada máquina, se producen **1 pieza en 5 minutos**.
+     - Si 5 máquinas hacen 5 piezas en 5 minutos, entonces **1 máquina hace 1 pieza en 5 minutos**.
+
+2. **Generalización:**
+   - La producción es **proporcional** a la cantidad de máquinas.
+     - Si se duplica el número de máquinas, la producción también se duplica en el mismo tiempo.
+   - En este caso, **100 máquinas** producirán **100 veces más piezas** que 5 máquinas en el mismo tiempo.
+     - Por ejemplo, si 5 máquinas hacen 5 piezas en 5 minutos, **100 máquinas harán 100 piezas en 5 minutos**.
+
+3. **Verificación:**
+   - Si 1 máquina hace 1 pieza en 5 minutos, entonces:
+     - **100 máquinas** harán **100 piezas en 5 minutos** (porque cada máquina trabaja de forma independiente y paralela).
+
+### **Conclusión:**
+**100 máquinas tardarán 5 minutos en producir 100 piezas.**
+
+---
+### **¿Por qué no depende del número de piezas?**
+El problema no cambia si se habla de 100 piezas o 100 máquinas, porque la relación es **directa y constante**:
+- **Tiempo por máquina** = constante (1 pieza por máquina en 5 minutos).
+- **El tiempo no varía** al aumentar el número de máquinas, ya que cada una",400,2.111,78.21,7.229
+2,raz_02,razonamiento_veracidad,ministral-3:3b,0.2,¿Cuál es la capital de Costa Rica y en qué año se declaró la independencia de Centroamérica de España?,"- **Capital de Costa Rica**: **San José**.
+- **Año de independencia de Centroamérica de España**:
+  Aunque Costa Rica declaró su independencia de España el **15 de septiembre de 1821** (junto con otras regiones de la actual Centroamérica), el proceso de independencia de España para todo el territorio centroamericano (incluyendo lo que hoy es Costa Rica) se consolidó en **1823**, cuando se formó la **Federación de las Provincias Unidas de Centroamérica**.
+
+Si necesitas detalles más específicos sobre algún evento histórico en particular, ¡avísame!",124,2.136,78.62,3.716
+3,gen_01,generacion_texto,ministral-3:3b,0.2,"Redacta un correo formal a mi profesor pidiendo una extensión de 2 días para entregar el proyecto. Ideas: tuve un problema de salud, ya avancé el 80%, entregaré el jueves.","Aquí tienes un borrador formal y respetuoso para tu correo al profesor:
+
+---
+**Asunto:** Solicitud de extensión para entrega del proyecto
+
+Estimado/a [Nombre del profesor],
+
+Espero que este mensaje le encuentre bien. Me dirijo a usted para solicitar, con todo el respeto, una extensión de dos días para la entrega del proyecto [nombre del proyecto, si aplica].
+
+Lamentablemente, en los últimos días he enfrentado un problema de salud que me ha impedido cumplir con el plazo original establecido. Sin embargo, quiero informarle que he avanzado aproximadamente el **80%** del trabajo, y que, con la ayuda de los recursos disponibles, podré entregarlo en **jueves [fecha actual + 2 días, ej. 30 de octubre de 2026]**.
+
+Agradezco profundamente su comprensión y flexibilidad, y estoy seguro/a de que el material entregado cumplirá con los estándares de calidad esperados. Quedo a su disposición para cualquier aclaración o ajuste adicional que considere necesario.
+
+Reciba un cordial saludo,
+[Tu nombre completo]
+[Tu matrícula o número de identificación, si aplica]
+[Asignatura y curso, ej. ""Curso: Introducción a la Informática, Grupo A""]
+
+---
+
+### Notas adicionales:
+1. **Tono**: Mantiene formalidad pero es cercano (evita excusas largas).
+2. **Detalles clave**: Incluye el avance del trabajo y la nueva fecha para ser claro.
+3. **Flexibilidad**: Si el profesor requiere más detalles (ej. ""¿Podría subir un avance?""), puedes añadir: *""Si lo considera oportuno, estaré encantado/a de compartir un avance del trabajo en los próximos días""*.
+
+¿Quieres ajustar algún detalle o prefieres un tono más breve/extenso?",392,2.123,78.14,7.144
+3,gen_02,generacion_texto,ministral-3:3b,0.2,Escribe un párrafo de 5 líneas que explique qué es un lenguaje de cuarta generación para un estudiante de primer año.,"Un lenguaje de cuarta generación, o **4GL** por sus siglas en inglés (*Fourth-Generation Language*), es un tipo de lenguaje de programación diseñado para facilitar la creación de aplicaciones complejas sin necesidad de escribir código manualmente en detalle. A diferencia de los lenguajes como el C++ o Python, que requieren más líneas de código, los 4GL permiten trabajar con bases de datos, gráficos o interfaces de usuario de manera más intuitiva, usando herramientas visuales o scripts más simples. Su objetivo es agilizar el desarrollo, especialmente en entornos donde se necesita rapidez y eficiencia, como en sistemas empresariales o aplicaciones web. Aunque ya no son tan populares hoy en día, siguen siendo útiles en ciertos contextos, como el desarrollo de software para bases de datos o sistemas de gestión. Su nombre refleja que, al simplificar el proceso, se reduce la cantidad de código que el programador debe escribir.",193,2.119,78.47,4.582
+3,res_01,resumen,ministral-3:3b,0.2,"Resume en exactamente 3 viñetas el siguiente texto: ¿Qué son los modelos de lenguaje de gran tamaño? Los modelos de lenguaje de gran tamaño, también conocidos como LLM, son modelos de aprendizaje profundo muy grandes que se preentrenan con grandes cantidades de datos. El transformador subyacente es un conjunto de redes neuronales que consta de un codificador y un decodificador con capacidades de autoatención. El codificador y el decodificador extraen significados de una secuencia de texto y comprenden las relaciones entre las palabras y las frases que contiene. Los transformadores LLM son capaces de entrenarse sin supervisión, aunque una explicación más precisa es que los transformadores llevan a cabo un autoaprendizaje. Es a través de este proceso que los transformadores aprenden a entender la gramática, los idiomas y los conocimientos básicos. A diferencia de las redes neuronales recurrentes (RNN) anteriores que procesaban las entradas de forma secuencial, los transformadores procesan secuencias enteras en paralelo. Esto permite a los científicos de datos utilizar las GPU para entrenar LLM basados en transformadores, lo que reduce significativamente el tiempo de entrenamiento. La arquitectura de las redes neuronales del transformador permite el uso de modelos muy grandes, a menudo con cientos de miles de millones de parámetros. Estos modelos a gran escala pueden incorporar cantidades masivas de datos, a menudo de Internet, pero también de fuentes como Common Crawl, que comprende más de 50 000 millones de páginas web, y Wikipedia, que tiene aproximadamente 57 millones de páginas. ¿Cómo funcionan los modelos de lenguaje de gran tamaño? Un factor clave en el funcionamiento de los LLM es la forma en que representan las palabras. Las formas previas de machine learning utilizaban una tabla numérica para representar cada palabra. Sin embargo, esta forma de representación no podía reconocer las relaciones entre las palabras, como las palabras con significados similares. Esta limitación se superó mediante el uso de vectores multidimensionales, también denominados incrustaciones de palabras, para representar palabras de modo que las palabras con significados contextuales similares u otras relaciones estén cerca unas de otras en el espacio vectorial. Al utilizar incrustaciones de palabras, los transformadores pueden preprocesar el texto como representaciones numéricas a través del codificador y comprender el contexto de palabras y frases con significados similares, así como otras relaciones entre palabras, como las partes del discurso. Entonces es posible que los LLM apliquen este conocimiento del idioma a través del decodificador para producir un resultado único. ¿Por qué son importantes los modelos de lenguaje de gran tamaño? Los modelos de lenguaje de gran tamaño son increíblemente flexibles. Un modelo puede realizar tareas completamente diferentes, como responder preguntas, resumir documentos, traducir idiomas y completar oraciones. Los LLM tienen el potencial de alterar la creación de contenido y la forma en que las personas utilizan los motores de búsqueda y los asistentes virtuales. Si bien no son perfectos, los LLM están demostrando una notable capacidad para hacer predicciones basadas en un número relativamente pequeño de indicaciones o entradas. Los LLM se pueden utilizar en la IA generativa para producir contenido basado en indicaciones de entrada en lenguaje humano. Los LLM son grandes, muy grandes. Pueden considerar miles de millones de parámetros y tienen muchos usos posibles. A continuación, se indican varios ejemplos: El modelo GPT-3 de OpenAI tiene 175 000 millones de parámetros. Su primo, ChatGPT, puede identificar patrones a partir de datos y generar resultados naturales y legibles. Si bien no sabemos el tamaño de Claude 2, puede aceptar entradas con hasta 100 000 tokens en cada indicación, lo que significa que puede funcionar en cientos de páginas de documentación técnica o, incluso, en un libro completo. El modelo Jurassic-1 de AI21 Labs tiene 178 000 millones de parámetros y un vocabulario simbólico de partes de 250 000 palabras y capacidades de conversación similares. El modelo Command de Cohere tiene capacidades similares y puede funcionar en más de 100 idiomas diferentes. El Paradigm de LightOn ofrece modelos básicos con capacidades declaradas que superan las del GPT-3. Todos estos LLM vienen con las API que permiten a los desarrolladores crear aplicaciones únicas de IA generativa. ¿Qué son las aplicaciones de modelos de lenguaje de gran tamaño? Hay muchas aplicaciones prácticas para los LLM. Redacción de textos publicitarios Además de GPT-3 y ChatGPT, Claude, Llama 2, Cohere Command y Jurassic pueden escribir copias originales. AI21 Wordspice sugiere cambios en las oraciones originales para mejorar el estilo y la voz. Respuesta a la base de conocimientos La técnica, que a menudo se denomina procesamiento del lenguaje natural intensivo en conocimiento (KI-NLP), se refiere a los LLM que pueden responder a preguntas específicas a partir de la información en los archivos digitales. Un ejemplo es la capacidad de AI21 Studio Playground para responder a preguntas de conocimiento general. Clasificación de textos Mediante la agrupación en clústeres, los LLM pueden clasificar textos con significados o sentimientos similares. Los usos incluyen medir el sentimiento de los clientes, determinar la relación entre los textos y buscar documentos. Generación de código Los LLM dominan la generación de código a partir de indicaciones en lenguaje natural. Algunos ejemplos incluyen Amazon CodeWhisperer y el Codex de Open AI utilizado en GitHub Copilot, que puede codificar en Python, JavaScript, Ruby y varios otros lenguajes de programación. Otras aplicaciones de codificación incluyen la creación de consultas SQL, la escritura de comandos shell y el diseño de sitios web. Generación de texto Al igual que la generación de código, la generación de texto puede completar oraciones incompletas, escribir la documentación del producto o, como Alexa Create, escribir un cuento infantil corto.","- **Definición y arquitectura**:
+  - Son modelos de **aprendizaje profundo** basados en transformadores con codificador y decodificador que procesan texto en paralelo mediante **autoatención**, permitiendo entender relaciones gramaticales y contextuales.
+  - Se entrenan con grandes volúmenes de datos (ej. *Common Crawl*, Wikipedia) y usan **incrustaciones de palabras** (vectores multidimensionales) para representar significados similares.
+
+- **Importancia y capacidades**:
+  - Son **flexibles y versátiles**, capaces de tareas como responder preguntas, traducir idiomas, resumir documentos o generar contenido (ej. GPT-3 con 175.000 millones de parámetros).
+  - Facilitan aplicaciones de IA generativa y transforman dinámicas como la creación de contenido o la interacción con asistentes virtuales.
+
+- **Aplicaciones prácticas**:
+  - **Redacción y clasificación**: Generar textos publicitarios, mejorar estilo o clasificar textos por sentimiento/relación (ej. AI21 Wordspice).
+  - **Codificación y generación**: Crear código (ej. GitHub Copilot), consultas SQL o documentación técnica.
+  - **Generación de texto**: Completar oraciones, escribir historias o respuestas basadas en conocimiento (ej. Alexa Create).",286,2.955,73.21,6.869
+3,res_02,resumen,ministral-3:3b,0.2,"Resume en 3 viñetas el siguiente texto: Vibe Coding vs. Spec-Driven Development En algunos círculos, el programador de vibraciones está de moda ahora mismo. (De hecho, mi compañera Kate Holterhoff declaró que esto era un «verano de la moda caliente).» ¿Por qué el atractivo? Como comenté en una publicación anterior, las herramientas de desarrollo impulsadas por IA son muy adecuadas para ayudar tanto a desarrolladores como a personas adyacentes (como PMs y diseñadores) con prototipos informales y rápidos. En lugar de esperar a ciclos de desarrollo escasos, la gente puede experimentar con ideas con mayor fidelidad que los métodos tradicionales (como documentos de diseño, enmarcado de alambre, pizarra blanca, etc.). La mayoría de las herramientas actuales de codificación Vibe son ideales para la exploración en fases iniciales, pero pueden quedarse cortas a la hora de generar código adecuado para sistemas a escala de producción. En términos generales, estas no son herramientas para apostar tu negocio ni siquiera aplicaciones empresariales. (Al menos no todavía.) Existen preocupaciones legítimas sobre si la codificación de vibración genera más responsabilidades que beneficios. Quizá el código de vibración pueda andamiar el código rápidamente o poner en marcha proyectos pequeños, pero a gran escala tiende a: No construir código de forma eficiente. Si quieres código ordenado, mantenible y reutilizable, probablemente la programación de vibra no sea lo ideal. Sería bastante complicado depurar. Crea problemas de rendimiento. ¿Recuerdas la anécdota sobre la base de datos que se vio afectada por consultas escritas mediante vibe codeing? (Espero que sí, porque no lo encuentro de nuevo; todas mis búsquedas de «impacto en el rendimiento de la base de datos de codificación de vibración» solo están dando el desastre de Replit)select * Tienen comportamientos poco fiables, a veces catastróficamente (véase el desastre de la eliminación de la base de datos Replit) Desplaza los cuellos de botella de la creación de software a las canalizaciones de depuración, pruebas y despliegue. Hay un abismo que cruzar entre prototipos mágicos y sistemas mantenibles y desplegables. El desarrollo basado en especificaciones ha surgido como una posible respuesta a esta brecha. Desarrollo basado en especificaciones 'Spec' en este caso significa especificación, un artefacto que captura los requisitos antes de escribir cualquier código. En lugar de depender exclusivamente de una serie de indicaciones, el usuario amplía el contexto de la IA con un enfoque más estructurado. «Seguro que has estado ahí: prompt, prompt, prompt, y tienes una aplicación funcional. Es divertido y se siente como magia. Pero llevarlo a producción requiere más.» – Nikhil Swaminathan y Deepak Singh. Esto no significa que no haya ningún indicado. Los usuarios siguen interactuando con la IA a través del chat. Vamos a ampliar: una comparación sencilla: El siguiente prompt no es necesariamente cómo sugiero programar vibe o hacer desarrollo basado en especificaciones si quieres usar tus tokens de forma eficiente, sino que intenta ilustrar cómo difieren los enfoques si estuviera construyendo una simple web personal de campo nuevo. Las capturas de pantalla a continuación son de Kiro, un IDE agente de AWS que permite a los usuarios construir usando Vibe Mode o Spec Mode. Codificación de vibraciones Prompt: I want to build a personal website to showcase my work portfolio. I want to import articles I've written via an RSS feed. La IA responde con sugerencias sobre qué pila tecnológica construir, preguntas sobre dónde alojar, y luego empieza a estructurarla. Salta directamente a escribir código. Desarrollo basado en especificaciones: En el desarrollo orientado a especificaciones podría usar exactamente el mismo prompt, pero en lugar de sumergirse en código, el sistema primero crea documentos de markdown centrados en historias de usuario y diseño. (Esta es una captura de pantalla truncada. El sistema en realidad generó 4 requisitos basándose en esta simple petición.) El usuario puede entonces entrar y editar esta reducción de notas. Se pueden añadir, eliminar y modificar requisitos necesarios. Un contexto adicional de lo que se está construyendo se captura no solo en la efímeridad de los prompts, sino en un documento vivo.","Aquí tienes el resumen en **3 viñetas clave**:
+
+- **Vibe Coding (Desarrollo intuitivo con IA)**
+  - Permite prototipar rápido y explorar ideas con herramientas de IA, ideal para fases iniciales.
+  - **Limitaciones**: No garantiza código eficiente, mantenible o escalable; genera problemas como fallos de rendimiento, depuración compleja y dependencia de sistemas de producción.
+
+- **Desventajas del enfoque ""vibra""**
+  - Depende de prompts efímeros (ej.: *select **), generando código poco fiable (ej.: el desastre de Replit).
+  - Desplaza los cuellos de botella a etapas posteriores (pruebas, despliegue), creando un abismo entre prototipos y sistemas sostenibles.
+
+- **Spec-Driven Development (Enfoque estructurado)**
+  - Usa **especificaciones documentadas** (ej.: requisitos en Markdown) para guiar el desarrollo, priorizando claridad y contexto.
+  - Combina prompts con artefactos estables (como historias de usuario), permitiendo edición y revisión antes de implementar código.",246,2.215,74.18,5.537
+3,cor_01,correccion_traduccion,ministral-3:3b,0.2,Corrige la ortografía y puntuación: 'ayer fuimos a la playa y los niños jugarón mucho hasta que llego la noche y tubimos que regresar'.,"Aquí está la versión corregida con la ortografía y puntuación adecuadas:
+
+**""Ayer fuimos a la playa, y los niños jugaron mucho hasta que llegó la noche, y tuvimos que regresar.""**
+
+Cambios realizados:
+- **""jugarón""** → **""jugaron""** (verbo en pasado, no lleva tilde en este contexto).
+- **""llego""** → **""llegó""** (verbo ""llegar"" en pasado, con tilde).
+- **""tubimos""** → **""tuvimos""** (verbo ""tener"" en pasado, con tilde).
+- Añadí comas para mejorar la fluidez y puntuación.",142,2.168,78.63,3.977
+3,cor_02,correccion_traduccion,ministral-3:3b,0.2,"Traduce al inglés: 'Necesito que me envíes el informe antes del viernes, por favor.'","You can translate it as:
+
+**""Could you please send me the report before Friday?""**",19,2.111,82.12,2.345
+3,cod_01,codigo,ministral-3:3b,0.2,"Escribe una consulta SQL que devuelva los 3 estudiantes con mayor promedio de la tabla estudiantes(id, nombre, promedio).","Aquí tienes una consulta SQL que devuelve los **3 estudiantes con el mayor promedio** de la tabla `estudiantes`:
+
+```sql
+SELECT
+    id,
+    nombre,
+    promedio
+FROM
+    estudiantes
+ORDER BY
+    promedio DESC
+LIMIT 3;
+```
+
+### Explicación:
+1. **`SELECT id, nombre, promedio`**: Selecciona los campos que necesitas.
+2. **`FROM estudiantes`**: Indica la tabla de origen.
+3. **`ORDER BY promedio DESC`**: Ordena los resultados por el promedio en orden descendente (de mayor a menor).
+4. **`LIMIT 3`**: Restringe el resultado a los **3 primeros registros** (los con mayor promedio).
+
+Si necesitas ajustar algún criterio (como incluir solo estudiantes con un promedio específico o filtrar por algún otro campo), ¡avísame!",183,2.126,78.71,4.454
+3,cod_02,codigo,ministral-3:3b,0.2,Escribe una función en Python llamada es_primo(n) que devuelva True si n es primo y False si no. Solo el código.,"```python
+def es_primo(n):
+    if n <= 1:
+        return False
+    if n == 2:
+        return True
+    if n % 2 == 0:
+        return False
+    for i in range(3, int(n**0.5) + 1, 2):
+        if n % i == 0:
+            return False
+    return True
+```",86,2.13,78.86,3.223
+3,raz_01,razonamiento_veracidad,ministral-3:3b,0.2,"Si 5 máquinas tardan 5 minutos en hacer 5 piezas, ¿cuánto tardan 100 máquinas en hacer 100 piezas? Explica tu razonamiento.","Este problema es un clásico ejemplo de **proporcionalidad directa** entre el número de máquinas y el tiempo necesario para producir un número proporcional de piezas. Vamos a desglosarlo paso a paso:
+
+---
+
+### **1. Interpretación del problema inicial**
+- **5 máquinas** producen **5 piezas** en **5 minutos**.
+  Esto implica que, en ese tiempo, cada máquina produce **1 pieza** (5 piezas ÷ 5 máquinas = 1 pieza/máquina).
+
+---
+
+### **2. Extensión a 100 máquinas**
+Si **1 máquina produce 1 pieza en 5 minutos**, entonces:
+- **100 máquinas** producirán **100 piezas en el mismo tiempo** (5 minutos).
+  - Cada máquina sigue produciendo 1 pieza, pero ahora hay 100 máquinas trabajando en paralelo.
+
+---
+
+### **3. Razonamiento clave**
+- **La cantidad de piezas es proporcional al número de máquinas** (no al tiempo).
+  - Si duplicas el número de máquinas, duplicas la producción en el mismo tiempo.
+  - En este caso, el número de máquinas y el número de piezas **son iguales** (100 máquinas → 100 piezas), por lo que el tiempo no cambia.
+
+---
+
+### **4. Verificación con un ejemplo menor**
+- **1 máquina** produce **1 pieza en 5 minutos**.
+- **2 máquinas** producen **2 piezas en 5 minutos** (no 10 minutos).
+  Esto confirma que el tiempo no depende de la cantidad de piezas, sino de la capacidad individual de las máquinas.
+
+---
+
+### **Respuesta final**
+**100 máquinas tardarán 5 minutos en producir 100 piezas.**
+El tiempo no varía porque el problema mantiene la proporción máquina-pieza constante.",378,2.111,78.35,6.939
+3,raz_02,razonamiento_veracidad,ministral-3:3b,0.2,¿Cuál es la capital de Costa Rica y en qué año se declaró la independencia de Centroamérica de España?,"- **Capital de Costa Rica**: **San José**.
+
+- **Año de independencia de Centroamérica de España**:
+  Centroamérica (como región) declaró su independencia de España en **1821**, aunque el proceso fue gradual y no todos los países se independizaron simultáneamente.
+  **Costa Rica** declaró su independencia **el 15 de septiembre de 1821** (junto con otras provincias centroamericanas de la entonces Nueva Granada).
+
+Si necesitas detalles más específicos sobre algún país en particular (como Guatemala, Nicaragua, etc.), ¡avísame!",120,2.109,78.82,3.634
