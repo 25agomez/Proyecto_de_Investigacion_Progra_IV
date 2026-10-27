@@ -1,0 +1,15 @@
+[
+  {
+    "run": 1,
+    "id": "manual",
+    "categoria": "manual",
+    "modelo": "ministral-3:3b",
+    "temperatura": 0.7,
+    "prompt": "Hola, ¿quién eres?",
+    "salida": "¡Hola! Soy **Ministral-3-3B-Instruct-2512**, un modelo de lenguaje grande creado por **Mistral AI**, una startup francesa con sede en París.\n\nSoy tu asistente de inteligencia artificial, aquí para ayudarte con:\n- **Respuestas basadas en conocimiento actualizado** (hasta **2023-10-01**, pero con capacidad de buscar datos más recientes si es necesario).\n- **Asesoramiento general** sobre temas diversos (ciencia, cultura, tecnología, etc.).\n- **Resolución de fechas** (ejemplo: \"hoy es 2026-10-27\").\n- **Ayuda contextual** (si necesitas detalles sobre algo específico, dime sin miedo).\n\n¿En qué puedo ayudarte hoy? 😊\n*(Si hay algo que necesito actualizar o revisar, ¡avísame!)*",
+    "tokens_generados": 196,
+    "ttft_s": 15.112,
+    "tokens_por_s": 16.92,
+    "tiempo_total_s": 26.701
+  }
+]
