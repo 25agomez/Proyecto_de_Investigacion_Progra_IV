@@ -72,13 +72,14 @@ Tomando como referencia el rendimiento obtenido en la evaluación del repositori
 
 #### Opción E: Despliegue Local (Ollama en Laptop/PC Personal)
 
-$$\text{Costo} = \text{Potencia (kW)} \times \text{Horas de uso} \times \text{Tarifa eléctrica (\$/kWh)}$$
+$$\text{Costo} = \text{Potencia (kW)} \times \text{Horas de uso} \times \text{Tarifa eléctrica (USD/kWh)}$$
 
 - **Consumo de laptop personal bajo carga de inferencia:** $\approx 45 \text{ W} = 0.045 \text{ kW}$.
 - **Tiempo estimado de procesamiento activo (a 30 tokens/s):** $\approx 138.9 \text{ horas/mes}$.
-- **Tarifa promedio de electricidad en Costa Rica (ICE/CNFL residencial):** $\approx \$0.15 \text{ / kWh}$.
+- **Tarifa promedio de electricidad en Costa Rica (ICE/CNFL residencial):** $\approx 0.15 \text{ USD / kWh}$.
 - **Costo eléctrico mensual aproximado:**
-  $$0.045 \text{ kW} \times 138.9 \text{ h} \times \$0.15 \text{ / kWh} \approx \mathbf{\$0.94 \text{ / mes}}$$
+
+  $$0.045 \text{ kW} \times 138.9 \text{ h} \times 0.15 \text{ USD/kWh} \approx \mathbf{0.94 \text{ USD / mes}}$$
 
 _(Aclaración: No incluye el costo de adquisición del equipo ni su desgaste por cómputo intenso)._
 
@@ -92,7 +93,7 @@ _(Aclaración: No incluye el costo de adquisición del equipo ni su desgaste por
 | **API Mistral (Batch)**             | $15 \text{ M tokens} \times \$0.075 / \text{M}$                      | **~$1.13 USD**                    |
 | **AWS g5.xlarge (24/7)**            | $730 \text{ h} \times \$1.006 / \text{h}$                            | **~$734.38 USD**                  |
 | **AWS g5.xlarge (Solo uso activo)** | $138.9 \text{ h} \times \$1.006 / \text{h}$                          | **~$139.73 USD**                  |
-| **Local (Ollama)**                  | $0.045 \text{ kW} \times 138.9 \text{ h} \times \$0.15 / \text{kWh}$ | **~$0.94 USD** (Excluye hardware) |
+| **Local (Ollama)**                  | $0.045 \text{ kW} \times 138.9 \text{ h} \times 0.15 \text{ USD/kWh}$ | **~$0.94 USD** (Excluye hardware) |
 
 ---
 
