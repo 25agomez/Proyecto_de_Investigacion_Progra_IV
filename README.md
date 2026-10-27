@@ -85,3 +85,4 @@ Ver tabla en el informe (sección 7 de la parte práctica).
 | :--------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------- | :------------------ |
 | **Claude (Anthropic)** | Generar el plan del proyecto, ideas para prompts, ayuda con comandos en terminal y guía de ejecución de la parte práctica de la investigación | prompts/suite.json  |
 | **Gemini (Google)**    | Análisis de costos y comparativa de despliegue: Local vs. API Mistral vs. Nube GPU (AWS)                                                      | docs/costos.md      |
+| **ChatGPT (OpenAI)**   | Revisión y correción de errores dentro del código o parte de comandos para ejecución de la termal.                                            | N/A                 |
