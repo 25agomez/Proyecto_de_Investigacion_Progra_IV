@@ -1,0 +1,15 @@
+[
+  {
+    "run": 1,
+    "id": "manual",
+    "categoria": "manual",
+    "modelo": "ministral-3:3b",
+    "temperatura": 0.9,
+    "prompt": "Si 5 máquinas tardan 5 minutos en hacer 5 piezas, ¿cuánto tardan 100 máquinas en hacer 100 piezas? Explica tu razonamiento.",
+    "salida": "Esta es una pregunta clásica que a menudo confunde por su apariencia lógica aparentemente idéntica pero con una relación distinta entre máquinas, piezas y tiempo. Vamos a analizarlo paso a paso:\n\n---\n### **Situación inicial: 5 máquinas, 5 piezas, 5 minutos**\nLa afirmación implica que:\n- **5 máquinas** producen **5 piezas** en **5 minutos**.\n\nEsto puede leerse como:\n- Cada máquina contribuye a un **número proporcional de piezas al mismo tiempo**.\n- Si 5 máquinas completan 5 piezas en 5 minutos, entonces **cada máquina trabaja a la misma velocidad constante**.\n\n**Razón:**\nSi consideramos que 5 máquinas son necesarias para hacer 5 piezas en 5 minutos, eso implica que **una máquina produce 1 pieza en 5 minutos** (la mitad de lo que hacen juntas las 5). Esto se puede deducir de las unidades de trabajo:\n- Si 5 máquinas en 5 minutos = 5 piezas, entonces **1 máquina en 5 minutos = 1 pieza**.\n\n---\n\n### **Nueva situación: 100 máquinas, 100 piezas, ¿cuánto tiempo?**\nSi las máquinas funcionan a la misma velocidad individual que antes, y **1 máquina produce 1 pieza en 5 minutos**, entonces:\n\n- **100 máquinas** producen **100 piezas al mismo tiempo**.\n- **100 piezas = 100 unidades individuales de trabajo**, cada una completada por una máquina en 5 minutos.\n- Por lo tanto, el proceso entero —mencionar que todas las piezas son producidas simultáneamente— **tarda igual de tiempo para cualquier número de máquinas y piezas igual al número de máquinas**.\n\n---\n### **¿Dónde está el truco?**\nLa clave aquí es la **interpretación incorrecta inicial de la relación máquina-pieza-tiempo**. Al principio se asocia \"5 máquinas + 5 piezas + 5 minutos\" con **una relación aditiva (directa)** en las máquinas, ignorando que:\n- Cada máquina está **independiente** y trabaja en paralelo.\n- La velocidad de producción no depende del número de máquinas *sino de que todas contribuyan de forma constante*.\n\n---\n\n### **Alternativa de respuesta con otra lógica (equivocada):**\nSi alguien intenta pensar que \"más máquinas deben aumentar el ritmo lineal\", podría decirse:\n*\"Si 5 máquinas hacen 5 piezas en 5 minutos",
+    "tokens_generados": 512,
+    "ttft_s": 2.109,
+    "tokens_por_s": 86.93,
+    "tiempo_total_s": 8.002
+  }
+]

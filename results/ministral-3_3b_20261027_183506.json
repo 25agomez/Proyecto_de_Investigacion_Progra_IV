@@ -1,0 +1,15 @@
+[
+  {
+    "run": 1,
+    "id": "manual",
+    "categoria": "manual",
+    "modelo": "ministral-3:3b",
+    "temperatura": 0.9,
+    "prompt": "Escribe un párrafo de 5 líneas que explique qué es un lenguaje de cuarta generación para un estudiante de primer año.",
+    "salida": "Un **lenguaje de cuarta generación** (o *4GL*, por sus siglas en inglés) es un tipo de lenguaje de programación diseñado para hacer más fácil y rápida la creación de software sin necesidad de escribir líneas complejas de código. A diferencia de los lenguajes como Python o Java, que requieren instrucciones detalladas, los 4GL permiten realizar tareas complejas con comandos breves o incluso usando interfaces gráficas, ideal para desarrollar sistemas, bases de datos o aplicaciones web sin necesidad de ser experto en programación.\n\nEstos lenguajes suelen estar enfocados en áreas específicas, como la gestión de bases de datos (*como SQL*) o en herramientas para desarrolladores más rápidos, haciendo que el código sea más comprensible y legible para quienes buscan soluciones prácticas con menos código. En resumen, son una alternativa intuitiva para resolver problemas tecnológicos de forma más eficiente.",
+    "tokens_generados": 189,
+    "ttft_s": 7.176,
+    "tokens_por_s": 86.81,
+    "tiempo_total_s": 9.357
+  }
+]
